@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Coming Soon - Curative Pharma</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/coming-soon.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="mp4/bg.mp4" type="video/mp4">
+    </video>
+
+    <div class="masthead">
+      <div class="masthead-bg"></div>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-12 my-auto">
+            <div class="masthead-content text-white py-5 py-md-0">
+              <img src="img/logo.png" class="mb-1 img-fluid">
+              <h2 class=" text-center mb-5">Share, Care & Gain</h2>
+              <h1 class="text-center">Coming Soon</h1> 
+              <p class="text-center mb-5">We're working hard to finish the development of this site. Our target launch date is ?</p>
+                <h3 id="lanchDateLabel" class="text-center text-bold"></h3>
+                <p class="text-center">Contact us by clicking the icons on the screen</p>
+                <p class="text-center">you can also visit us at <b>5 Kamaludin Salah, 1st Albert, Smoha . Alexandria, Egypt</b></p>
+              <!-- <div class="input-group input-group-newsletter">
+                <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
+                <div class="input-group-append">
+                  <button class="btn btn-secondary" type="button">Notify Me!</button>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="social-icons">
+      <ul class="list-unstyled text-center mb-0">
+          <li class="list-unstyled-item">
+              <a href="tel:201212221859">
+                <i class="fa fa-phone"></i>
+              </a>
+            </li>
+        <li class="list-unstyled-item">
+          <a href="mailto:info@curative-pharma.com">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="https://www.facebook.com/curativepharma/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="list-unstyled-item">
+          <a href="https://www.linkedin.com/company/curative-pharma/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/coming-soon.min.js"></script>
+    <!-- script to show launch date -->
+    <script>
+      var dateObj = new Date();
+      var month = dateObj.getUTCMonth() + 2; //months from 1-12
+      var day = dateObj.getUTCDate();
+      var year = dateObj.getUTCFullYear();
+      launchDate = year + "/" + month + "/" + day;
+      document.getElementById("lanchDateLabel").textContent = launchDate
+    </script>
+
+  </body>
+
+</html>
